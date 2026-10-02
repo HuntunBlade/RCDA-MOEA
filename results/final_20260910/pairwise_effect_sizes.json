@@ -1,0 +1,190 @@
+{
+  "Tissp": {
+    "dataset": "Tissp",
+    "shape": [
+      14063,
+      158
+    ],
+    "n_pairs": 30,
+    "hv": {
+      "rcda_mean": 0.005580214318816636,
+      "rcda_std_sample": 0.0006614367417760602,
+      "nsga2_mean": 0.0057051954908894,
+      "nsga2_std_sample": 0.0007454712611853707,
+      "mean_difference_rcda_minus_nsga2": -0.00012498117207276335,
+      "median_difference": -0.00023706171112748003,
+      "cohens_dz": -0.11671458122430388,
+      "rank_biserial": -0.12688172043010754,
+      "wilcoxon_statistic": 203.0,
+      "raw_p": 0.5561132747679949,
+      "bootstrap_mean_diff_ci95": [
+        -0.0005000943393236497,
+        0.00025845263423784096
+      ],
+      "rcda_wins": 12,
+      "nsga2_wins": 18,
+      "ties": 0,
+      "metric_source": "final_archive_objectives"
+    },
+    "igd": {
+      "rcda_mean": 0.0046651680589191,
+      "rcda_std_sample": 0.0013189388313204944,
+      "nsga2_mean": 0.003940717614465852,
+      "nsga2_std_sample": 0.0008896781884005501,
+      "mean_difference_rcda_minus_nsga2": 0.0007244504444532476,
+      "median_difference": 0.0004883273939492512,
+      "cohens_dz": 0.5502815828834442,
+      "rank_biserial": 0.5311827956989247,
+      "wilcoxon_statistic": 109.0,
+      "raw_p": 0.00993151031434536,
+      "bootstrap_mean_diff_ci95": [
+        0.00028130683973389575,
+        0.0012003417090725476
+      ],
+      "rcda_wins": 11,
+      "nsga2_wins": 19,
+      "ties": 0
+    }
+  },
+  "Ustilago": {
+    "dataset": "Ustilago",
+    "shape": [
+      5810,
+      168
+    ],
+    "n_pairs": 30,
+    "hv": {
+      "rcda_mean": 0.0007939974113817667,
+      "rcda_std_sample": 6.208056774821834e-05,
+      "nsga2_mean": 0.0008311350583637569,
+      "nsga2_std_sample": 8.681779981983399e-05,
+      "mean_difference_rcda_minus_nsga2": -3.7137646981990294e-05,
+      "median_difference": -2.4343565430620857e-05,
+      "cohens_dz": -0.3557671649579934,
+      "rank_biserial": -0.3548387096774194,
+      "wilcoxon_statistic": 150.0,
+      "raw_p": 0.09194962680339813,
+      "bootstrap_mean_diff_ci95": [
+        -7.512539696641297e-05,
+        -8.918843049313844e-07
+      ],
+      "rcda_wins": 12,
+      "nsga2_wins": 18,
+      "ties": 0,
+      "metric_source": "final_archive_objectives"
+    },
+    "igd": {
+      "rcda_mean": 0.003249807150554117,
+      "rcda_std_sample": 0.00032930921167678484,
+      "nsga2_mean": 0.003110086732588944,
+      "nsga2_std_sample": 0.0003704174300205448,
+      "mean_difference_rcda_minus_nsga2": 0.0001397204179651729,
+      "median_difference": 0.00011348228825106194,
+      "cohens_dz": 0.2620472528468931,
+      "rank_biserial": 0.2817204301075269,
+      "wilcoxon_statistic": 167.0,
+      "raw_p": 0.18396909348666668,
+      "bootstrap_mean_diff_ci95": [
+        -4.819863181136881e-05,
+        0.00032751035641861087
+      ],
+      "rcda_wins": 12,
+      "nsga2_wins": 18,
+      "ties": 0
+    }
+  },
+  "Mouse": {
+    "dataset": "Mouse",
+    "shape": [
+      19970,
+      3005
+    ],
+    "n_pairs": 30,
+    "hv": {
+      "rcda_mean": 0.20898290444590492,
+      "rcda_std_sample": 0.018455677936085234,
+      "nsga2_mean": 0.2180929118884923,
+      "nsga2_std_sample": 0.01620767757861285,
+      "mean_difference_rcda_minus_nsga2": -0.009110007442587439,
+      "median_difference": -0.009424413437016832,
+      "cohens_dz": -0.36611135521795135,
+      "rank_biserial": -0.3978494623655914,
+      "wilcoxon_statistic": 140.0,
+      "raw_p": 0.05768792890012264,
+      "bootstrap_mean_diff_ci95": [
+        -0.017714286635021663,
+        -0.00030692918540635
+      ],
+      "rcda_wins": 11,
+      "nsga2_wins": 19,
+      "ties": 0,
+      "metric_source": "final_archive_objectives"
+    },
+    "igd": {
+      "rcda_mean": 0.15343968070144212,
+      "rcda_std_sample": 0.05107609841095514,
+      "nsga2_mean": 0.13664471811955453,
+      "nsga2_std_sample": 0.034697312794053456,
+      "mean_difference_rcda_minus_nsga2": 0.016794962581887642,
+      "median_difference": 0.02387268469141135,
+      "cohens_dz": 0.32425463065840865,
+      "rank_biserial": 0.3333333333333333,
+      "wilcoxon_statistic": 155.0,
+      "raw_p": 0.11417667381465435,
+      "bootstrap_mean_diff_ci95": [
+        -0.0011761725319489344,
+        0.03508167804886694
+      ],
+      "rcda_wins": 12,
+      "nsga2_wins": 18,
+      "ties": 0
+    }
+  },
+  "Cocel-GSE35896-alt": {
+    "dataset": "Cocel-GSE35896-alt",
+    "shape": [
+      20848,
+      62
+    ],
+    "n_pairs": 30,
+    "hv": {
+      "rcda_mean": 0.000602240083732895,
+      "rcda_std_sample": 4.87887725946971e-05,
+      "nsga2_mean": 0.0006168330350384782,
+      "nsga2_std_sample": 5.452644961504145e-05,
+      "mean_difference_rcda_minus_nsga2": -1.4592951305583092e-05,
+      "median_difference": -8.244039211210258e-06,
+      "cohens_dz": -0.19577564843484635,
+      "rank_biserial": -0.1913978494623656,
+      "wilcoxon_statistic": 188.0,
+      "raw_p": 0.370740607380867,
+      "bootstrap_mean_diff_ci95": [
+        -4.075968423083848e-05,
+        1.1115783511725166e-05
+      ],
+      "rcda_wins": 13,
+      "nsga2_wins": 17,
+      "ties": 0,
+      "metric_source": "final_archive_objectives"
+    },
+    "igd": {
+      "rcda_mean": 0.0036295383555796593,
+      "rcda_std_sample": 0.00046399890758279226,
+      "nsga2_mean": 0.0033856811324211784,
+      "nsga2_std_sample": 0.0004353019552755187,
+      "mean_difference_rcda_minus_nsga2": 0.0002438572231584809,
+      "median_difference": 0.00031320678820028836,
+      "cohens_dz": 0.4850531768052054,
+      "rank_biserial": 0.4881720430107527,
+      "wilcoxon_statistic": 119.0,
+      "raw_p": 0.018529480323195457,
+      "bootstrap_mean_diff_ci95": [
+        6.414682193656611e-05,
+        0.00041789316788921134
+      ],
+      "rcda_wins": 10,
+      "nsga2_wins": 20,
+      "ties": 0
+    }
+  }
+}

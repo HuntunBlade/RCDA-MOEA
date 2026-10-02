@@ -1,0 +1,14 @@
+# Sensitivity dataset only. GSE35896 is an Affymetrix GPL570 microarray series,
+# not the 54-cell-line CCLE RNA-seq matrix described as Cocel in OAEVOB.
+dataset: cocel_gse35896_alternative
+source: GEO GSE35896 (GPL570)
+preprocessing: "RMA series matrix; unique single Gene Symbol mappings; duplicate probes aggregated by mean; whole-matrix z-score standardization"
+final_shape: [20848, 62]
+reference_compatibility: false
+role: sensitivity_analysis
+min_rows: 104
+min_cols: 3
+init_density: 0.02
+population_size: 60
+generations: 100
+runs: 30

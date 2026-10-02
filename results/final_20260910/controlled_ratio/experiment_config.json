@@ -1,0 +1,27 @@
+{
+  "m": 100,
+  "ratios": [
+    2,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "instances_per_ratio": 20,
+  "runs_per_instance": 1,
+  "population": 60,
+  "generations": 100,
+  "epsilon": 0.01,
+  "sharpness": 1.0,
+  "hv_window": 5,
+  "hv_epsilon": 0.02,
+  "pc_base": 0.7,
+  "pc_max": 0.95,
+  "init_density": 0.02,
+  "matrix_seed_formula": "100000 + instance",
+  "algorithm_seed_formula": "instance*1000 + 1"
+}

@@ -1,0 +1,79 @@
+{
+  "rule": "A point contributes to HV iff all objectives are <= the dataset reference point; outside points are ignored, never clipped.",
+  "datasets": {
+    "Tissp": {
+      "ref_point": [
+        0.7542415347264586,
+        1.0
+      ],
+      "algorithms": {
+        "rcda": {
+          "points": 1314,
+          "outside": 0
+        },
+        "nsga2": {
+          "points": 1446,
+          "outside": 0
+        }
+      },
+      "total_points": 2760,
+      "outside_points": 0
+    },
+    "Cocel-alt": {
+      "ref_point": [
+        0.07098183812531517,
+        1.0
+      ],
+      "algorithms": {
+        "rcda": {
+          "points": 1767,
+          "outside": 0
+        },
+        "nsga2": {
+          "points": 1795,
+          "outside": 0
+        }
+      },
+      "total_points": 3562,
+      "outside_points": 0
+    },
+    "Mouse": {
+      "ref_point": [
+        125.39131322365992,
+        1.0
+      ],
+      "algorithms": {
+        "rcda": {
+          "points": 411,
+          "outside": 0
+        },
+        "nsga2": {
+          "points": 427,
+          "outside": 0
+        }
+      },
+      "total_points": 838,
+      "outside_points": 0
+    },
+    "Ustilago": {
+      "ref_point": [
+        0.1259770833951439,
+        1.0
+      ],
+      "algorithms": {
+        "rcda": {
+          "points": 1750,
+          "outside": 0
+        },
+        "nsga2": {
+          "points": 1682,
+          "outside": 0
+        }
+      },
+      "total_points": 3432,
+      "outside_points": 0
+    }
+  },
+  "total_points": 10592,
+  "outside_points": 0
+}

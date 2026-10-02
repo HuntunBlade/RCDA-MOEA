@@ -1,0 +1,182 @@
+[
+  {
+    "seed": 1,
+    "final_hv": 0.0006572982308395166,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 2,
+    "final_hv": 0.0005651263788768537,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 3,
+    "final_hv": 0.0005899464011722362,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 4,
+    "final_hv": 0.0004898159419445179,
+    "archive_size": 47,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 5,
+    "final_hv": 0.0006909845817269982,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 6,
+    "final_hv": 0.0006938019019254004,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 7,
+    "final_hv": 0.000589077199161541,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 8,
+    "final_hv": 0.0005219744066600015,
+    "archive_size": 52,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 9,
+    "final_hv": 0.0006585481074664667,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 10,
+    "final_hv": 0.0006621705296182919,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 11,
+    "final_hv": 0.0005743061371866142,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 12,
+    "final_hv": 0.0006682208586992664,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 13,
+    "final_hv": 0.0005552224605084112,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 14,
+    "final_hv": 0.0006194757233148947,
+    "archive_size": 52,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 15,
+    "final_hv": 0.0005367210274900116,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 16,
+    "final_hv": 0.0005775302416442623,
+    "archive_size": 56,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 17,
+    "final_hv": 0.000555642105922696,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 18,
+    "final_hv": 0.0006287313055626971,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 19,
+    "final_hv": 0.0006062586477972604,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 20,
+    "final_hv": 0.0005757076787290237,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 21,
+    "final_hv": 0.0006096742641840435,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 22,
+    "final_hv": 0.0005777667519317226,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 23,
+    "final_hv": 0.0006020740736167203,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 24,
+    "final_hv": 0.0005886860852794083,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 25,
+    "final_hv": 0.0006332086089902958,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 26,
+    "final_hv": 0.0006406451643401941,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 27,
+    "final_hv": 0.0006208363977630429,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 28,
+    "final_hv": 0.0005945169361461326,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 29,
+    "final_hv": 0.0005588117577660236,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  },
+  {
+    "seed": 30,
+    "final_hv": 0.000624422605722305,
+    "archive_size": 60,
+    "metric_source": "final_archive_objectives"
+  }
+]

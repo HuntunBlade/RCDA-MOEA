@@ -1,0 +1,71 @@
+=== Synthetic ablation: final-archive HV (corrected common time point) ===
+Method                         HV mean+-sample SD       IGD mean+-SD
+full                           0.26311884+-0.01753571   0.07983+-0.01532
+no_structural_diversity        0.26495790+-0.02162120   0.08052+-0.01559
+no_hv_feedback                 0.26365511+-0.02045444   0.07858+-0.01509
+no_feedback                    0.27078063+-0.02205704   0.07712+-0.01733
+
+=== Friedman + Holm on final-archive HV ===
+{
+  "friedman_statistic": 3.8799999999999955,
+  "friedman_p": 0.2747169154905041,
+  "alpha": 0.05,
+  "pairwise": [
+    {
+      "pair": [
+        "full",
+        "no_structural_diversity"
+      ],
+      "raw_p": 0.6263462882488966,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    {
+      "pair": [
+        "full",
+        "no_hv_feedback"
+      ],
+      "raw_p": 0.6263462882488966,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    {
+      "pair": [
+        "full",
+        "no_feedback"
+      ],
+      "raw_p": 0.06666470877826214,
+      "holm_p": 0.39998825266957283,
+      "significant": false
+    },
+    {
+      "pair": [
+        "no_structural_diversity",
+        "no_hv_feedback"
+      ],
+      "raw_p": 0.5425279382616282,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    {
+      "pair": [
+        "no_structural_diversity",
+        "no_feedback"
+      ],
+      "raw_p": 0.17059839516878128,
+      "holm_p": 0.7594345975667238,
+      "significant": false
+    },
+    {
+      "pair": [
+        "no_hv_feedback",
+        "no_feedback"
+      ],
+      "raw_p": 0.15188691951334476,
+      "holm_p": 0.7594345975667238,
+      "significant": false
+    }
+  ]
+}
+
+Note: IGD is unchanged by the HV logging-time correction because it is computed from saved final fronts.

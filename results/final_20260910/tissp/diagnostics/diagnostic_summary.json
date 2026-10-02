@@ -1,0 +1,6 @@
+{
+  "runs": 30,
+  "generations": 100,
+  "mean_stagnation_rate": 0.17833333333333334,
+  "mean_abs_weight_imbalance": 0.09341440933983257
+}

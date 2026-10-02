@@ -1,0 +1,12 @@
+{
+  "out": "results/final_20260911/controlled_fixed_length_corrected",
+  "total_length": 500,
+  "ratios": [
+    2,
+    10,
+    50
+  ],
+  "instances": 8,
+  "population": 40,
+  "generations": 60
+}

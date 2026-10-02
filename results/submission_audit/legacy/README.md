@@ -1,0 +1,1 @@
+Historical HV-log-based aggregate retained only for provenance. It is not the submission statistic. Submission final HV is recomputed from the saved final Pareto archives at a common post-selection time point; see `../archive_final_hv_audit.json`.

@@ -1,0 +1,40 @@
+{
+  "dataset": "Tissp",
+  "n_pairs": 10,
+  "metric_source": "final_archive_objectives",
+  "reference_point": [
+    0.7542415347264586,
+    1.0
+  ],
+  "rcda_mean": 0.005367841230296369,
+  "rcda_std": 0.0006311188564486436,
+  "pc": {
+    "0.7": {
+      "nsga_mean": 0.005219929081850399,
+      "nsga_std": 0.00047057272385109207,
+      "delta_mean": 0.0001479121484459711,
+      "wilcoxon_p": 0.375,
+      "rcda_wins": 6,
+      "ties": 0,
+      "nsga_wins": 4
+    },
+    "0.8": {
+      "nsga_mean": 0.005669400724030755,
+      "nsga_std": 0.0009189384765324019,
+      "delta_mean": -0.00030155949373438526,
+      "wilcoxon_p": 0.556640625,
+      "rcda_wins": 4,
+      "ties": 0,
+      "nsga_wins": 6
+    },
+    "0.95": {
+      "nsga_mean": 0.005841750635877932,
+      "nsga_std": 0.0009310111074668651,
+      "delta_mean": -0.0004739094055815622,
+      "wilcoxon_p": 0.16015625,
+      "rcda_wins": 2,
+      "ties": 0,
+      "nsga_wins": 8
+    }
+  }
+}

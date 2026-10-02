@@ -1,0 +1,22 @@
+# Default RCDA-MOEA configuration.
+# Mirrors src/rcda_moea/algorithm.py::RCDAConfig field-for-field, and matches
+# the "Value used" column of the paper's parameter table (Section 4.5 / Table 2),
+# The final 2026-09-10 experiments use the values below consistently; the synthetic
+# diagnostic ablation overrides epsilon/sharpness explicitly in its own config.
+
+population_size: 60          # N
+generations: 100             # T
+min_rows: 2                  # per-dataset override required for real data (see tissp.yaml/cocel.yaml)
+min_cols: 2                  # per-dataset override required for real data
+mutation_rate: 0.3
+epsilon: 0.01                # diversity-allocation smoothing term
+allocation_sharpness: 1.0    # 1.0 = paper's original formula (Sec 4.3); >1 sharpens W_R/W_C split
+hv_window: 5                 # L: HV-stagnation window length
+hv_epsilon: 0.02             # epsilon_HV: relative stagnation threshold (fraction of current HV)
+pc_base: 0.7                 # P_c^base
+pc_max: 0.95                 # P_c^max
+init_density: 0.3
+ref_point: [1.5, 1.5]        # OVERRIDDEN per dataset via rcda_moea.refpoint.get_or_compute_reference_point;
+                              # a hard-coded (1.5, 1.5) silently breaks on datasets whose MSR exceeds 1.5
+                              # (see progress_report.md bug #2). Never used as-is for real data.
+runs: 30                     # independent repetitions per configuration (paper spec)

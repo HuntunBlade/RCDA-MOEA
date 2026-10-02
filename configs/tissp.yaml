@@ -1,0 +1,11 @@
+# Final reproducible Tissp configuration (GEO GDS596 / GPL96).
+dataset: tissp
+source: GEO GDS596 (GPL96)
+preprocessing: "probe -> IDENTIFIER gene aggregation by mean; matrix whole-matrix z-score standardization"
+final_shape: [14063, 158]
+min_rows: 70
+min_cols: 5
+init_density: 0.02
+population_size: 60
+generations: 100
+runs: 30

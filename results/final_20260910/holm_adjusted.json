@@ -1,0 +1,18 @@
+{
+  "hv_holm_four_dataset_family": {
+    "Mouse": 0.23075171560049057,
+    "Ustilago": 0.2758488804101944,
+    "Cocel-GSE35896-alt": 0.741481214761734,
+    "Tissp": 0.741481214761734
+  },
+  "igd_holm_documented_family": {
+    "Tissp": 0.01986302062869072,
+    "Cocel-GSE35896-alt": 0.01986302062869072
+  },
+  "igd_holm_legacy_four_dataset_exploratory": {
+    "Tissp": 0.03972604125738144,
+    "Cocel-GSE35896-alt": 0.05558844096958637,
+    "Mouse": 0.2283533476293087,
+    "Ustilago": 0.2283533476293087
+  }
+}

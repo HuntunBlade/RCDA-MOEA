@@ -1,0 +1,43 @@
+# Configuration actually used to produce the synthetic diagnostic ablation
+# reported in the manuscript synthetic-ablation experiment. This is the ONLY config in this file whose results are
+# fully reproducible from files included in this package (see
+# project/results/synthetic_ablation_analysis.txt and
+# project/results/raw/ablation/).
+
+dataset: example_realistic
+source: src/data/synthetic_realistic.py (generate_realistic_synthetic_matrix, seed=0)
+shape: [200, 60]               # genes x conditions (synthetic)
+
+population_size: 60
+generations: 100
+runs: 30
+seed_start: 1
+
+# ref_point: computed at runtime via rcda_moea.refpoint.get_or_compute_reference_point
+# (data-dependent; cached to data/processed/example_realistic.npy.refpoint.json)
+
+variants:
+  full:
+    epsilon: 0.001
+    allocation_sharpness: 3.0
+    hv_epsilon: 0.02
+    pc_base: 0.7
+    pc_max: 0.95
+  no_structural_diversity:
+    epsilon: 0.001
+    allocation_sharpness: 0.0  # forces W_R = W_C = 0.5
+    hv_epsilon: 0.02
+    pc_base: 0.7
+    pc_max: 0.95
+  no_hv_feedback:
+    epsilon: 0.001
+    allocation_sharpness: 3.0
+    hv_epsilon: 0.02
+    pc_base: 0.7
+    pc_max: 0.7                # pc_max == pc_base disables the HV-stagnation boost
+  no_feedback:
+    epsilon: 0.001
+    allocation_sharpness: 0.0
+    hv_epsilon: 0.02
+    pc_base: 0.7
+    pc_max: 0.7
